@@ -4,10 +4,10 @@
 - Publish/Subscribe
 - Routing
 
-    ![image](https://github.com/mgracy/RabbitMQDemos/imgs/routing.gif)
+    ![image](https://github.com/mgracy/RabbitMQDemos/blob/master/imgs/routing.gif)
 
 - Topics
 - Persistent
 
-    ![image](https://github.com/mgracy/RabbitMQDemos/imgs/persist.gif)
+    ![image](https://github.com/mgracy/RabbitMQDemos/blob/master/imgs/persist.gif)
 
