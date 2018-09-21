@@ -19,7 +19,7 @@ channel.queue_bind(exchange='topic_logs',
                    routing_key="lazy.#"
                    )
 
-print(' [*] Waiting for warning logs. To exit press CTRL+C')
+print(' [*] Waiting for lazyrabbit logs. To exit press CTRL+C')
 
 
 def callback(ch, method, properties, body):
