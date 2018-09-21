@@ -5,7 +5,7 @@
 """
 
 import ConnectionUtils
-import random
+import time
 
 connection = ConnectionUtils.connection
 channel = connection.channel()
@@ -14,10 +14,10 @@ channel.exchange_declare(exchange='topic_logs',
                          exchange_type='topic')
 
 
-message = "animal"
+message = "animal %s" % time.strftime('%Y-%m-%d %H:%M:%S')
 
 channel.basic_publish(exchange='topic_logs',
-                      routing_key="quick.orange.rabbit",
+                      routing_key=".orange.",
                       body=message)
 
 print(' [x] Sent %r' % message)
